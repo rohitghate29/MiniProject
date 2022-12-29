@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background: black;
+}
+.wrapper{
+    height: 80vh;
+    width: 90vw;
+    margin-top: 60px;
+}
+.left h3{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 7% 0 0 50px;
+    text-decoration: underline;
+}
+.left img{
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+.left p{
+    color: #ffb300;
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    top: 27%;
+    left: 11%;
+}
+.email{
+    height: 50px;
+    width: 100px;
+}
+.email img{
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 40px;
+} 
+.email p{
+    color: #ffb300;
+    font-size: 30px;
+    position: absolute;
+    top: 42%;
+    left: 11%;
+}
+
+.location{
+    height: 80px;
+    width: 100px;
+}
+.location img{
+    height: 100%;
+    width: 100%;
+    margin: 30px 0 0 40px;
+}
+.location p{
+    color: #ffb300;
+    font-size: 25px;
+    position: absolute;
+    top: 57%;
+    left: 12%;
+}
+
+.social_links{
+    display: flex;
+}
+.social_links h3{
+    position: absolute;
+    top: 16%;
+    left: 60%;
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.social_links .fb{
+    position: absolute;
+    top: 25%;
+    left: 62%;
+}
+#fb{
+    width: 20px;
+}
+.social_links .ig{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+}
+#ig{
+    width: 43px;
+    padding-left: 10px;
+}
+.social_links .twitter{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}
+#twitter{
+    width: 45px;
+    padding-left: 15px;
+}
+.policy{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 62%;
+}
+.policy a{
+    color: aliceblue;
+    padding: 5px;
+}
+#allrights{
+    color: #ffb300;
+    padding-top: 20px;
+}

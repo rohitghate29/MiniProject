@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body{
+    background-color: #000000d7;
+}
+
+.title h2{
+    background-color: #009879;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+
+table{
+    width: 60%;
+    height: 80%;
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+  table th{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+  table th, td{
+    padding: 12px 15px;
+    text-align: center;
+  }
+  table tr{
+    background-color: #ffffff;
+  }
+  table tbody, tr{
+    border-bottom: 1px solid #dddddd;
+  }
+  table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  caption{
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: #009879;
+    color: rgb(26, 29, 29);
+    text-decoration: underline;
+  }
+
+
+
+

@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.title{
+    width: 100vw;
+}
+.title h2{
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    color: #ffb300;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+}
+.info h3{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    width: 312px;
+    margin-top: 40px
+}
+.info p{
+    color: #ffb300;
+    padding-top: 20px;
+    width: 25vw;
+    font-size: 20px;
+}
+.img1{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    margin-left: 30px;
+}
+.img1 #arrow1{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 30%;
+    left: 120%;
+}
+
+.img2{
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+    margin-left: 30px;
+}
+.img2 h3{
+    position: relative;
+    left: -20%;
+}
+.img2 p{
+    position: absolute;
+    left: -30px;
+}
+.img2 #arrow1{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    top: 30%;
+    left: 120%;
+}
+
+
+.img3{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    background-color: #ffb300;
+    border-radius: 100px;
+}
+.img3 img{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 22%;
+    left: 20%;
+}
+.img3 h3{
+    position: absolute;
+    top: 123%;
+    left: -15%;
+    width: 220px;
+}
+.img3 p{
+    position: absolute;
+    top: 175%;
+    width: 200px;
+}
