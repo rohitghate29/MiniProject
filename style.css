@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: -1;
 }
 
 
@@ -23,7 +24,6 @@
     left: 15%;
     transform: translate(-50%,-50%);
     text-align: center;
-    z-index: 1;
 }
 .text-box h1{
     font-size: 52px;
