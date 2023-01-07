@@ -30,7 +30,7 @@ body{
 .container{
     margin: 0;
     padding: 0px;
-    height: 140vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
