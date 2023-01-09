@@ -52,3 +52,21 @@ nav img{
     position: relative;
     z-index: 1;
 }
+.contact{
+    height: 21px;
+    width: 144px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0d7a5f;;
+    border-radius: 10px;
+}
+.contact a{
+    color: #0d7a5f;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contact a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
