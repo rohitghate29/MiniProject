@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+.select{
+    margin-top: 5%;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: calc(100% - 20px);
+    margin-left: 10%;
+}
+.card{
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    height: 220px;
+    width: 230px;
+    position: relative;
+    border: 2px solid white;
+
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    filter: brightness(40%);
+}
+.card h2{
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 30%;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+}
+.card a{
+    background-color: #000000;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    top:60%;
+    left: 30%;
+    font-weight: 600;
+    padding: 2px;
+    border: 1px solid rgb(234, 234, 234);
+}
+.card a:hover{
+    background-color: crimson;
+    color: #000000;
+    transition: all 1s;
+    box-shadow: 0 0 10px 10px #2f2f2f;
+    border: 1px solid ;
+}
+select{
+    margin: 20px 130px;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+}
+#delivery{
+    left: 2%;
+}
+#furniture{
+    left: 25%;
+    margin-top: -20px;
+}
+#yard{
+    left: 18%;
+}
+#car{
+    left: 14%;
+}
+#house{
+    left: 8%;
+}
+#babysitting{
+    left: 18%;
+}
+#farmworkers{
+    left: 10%;
+}
+#tiffinservice{
+    left: 10%;
+}
+#welders{
+    left: 22%;
+}
