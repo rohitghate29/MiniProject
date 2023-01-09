@@ -12,10 +12,20 @@
 <body>
     <div include-html="header.html" id="header_file"></div>
     
-        <div class="title">
-            <h1>Services</h1>
-            <p>All Types of Labours - Workers - Contractors - Service Agencies - Technicians</p>
-        </div>
+    <div class="title">
+        <h1>Services</h1>
+        <p>All Types of Labours - Workers - Contractors - Service Agencies - Technicians</p>
+    </div>
+    <div class="select">
+        <select name="city" id="city">
+            <option value="">Select Your area</option>
+            <option value="Chandrapur">Chandrapur</option>
+            <option value="">Other...</option>
+        </select>
+    </div>
+    <div class="p">
+        <h3>POPULAR</h3>
+    </div>
     <div class="container">
         <div id="cards">
             <div class="card">
@@ -46,7 +56,7 @@
             </div>
             <div class="card">
                 <img src="img/guard.jpg" alt="Security">
-                <h2 id="security_cook">Security Guards</h2>
+                <h2 id="security">Security Guards</h2>
                 <a href="securityguards.html" id="stc">Get Details</a>
             </div>
             <div class="card">
@@ -66,8 +76,8 @@
             </div>
             <div class="card">
                 <img src="img/cooks.webp" alt="Cooks">
-                <h2 id="security_cook">Cooks, Chef's</h2>
-                <a href="chefs.html" id="stc">Get Details</a>
+                <h2 id="cook">Cooks, Chef's</h2>
+                <a href="chefs.html" id="chef">Get Details</a>
             </div>
             <div class="card">
                 <img src="img/driver.jpg" alt="Driver">
@@ -76,6 +86,7 @@
             </div>
             <div class="card">
                 <img src="img/contractor.png" alt="View More">
+                <h2 id="explore">More Services</h2>
                 <a href="exploremore.html">Explore More</a>
             </div>
         </div>
