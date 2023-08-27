@@ -59,6 +59,7 @@ nav img{
     padding: 10px;
     border: 1px solid #0d7a5f;;
     border-radius: 10px;
+    cursor: pointer;
 }
 .contact a{
     color: #0d7a5f;
